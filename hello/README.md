@@ -1,6 +1,6 @@
 # Hello
 
-{% video https://youtu.be/vbkTzOytISY %}
+{% video https://www.youtube.com/watch?time_continue=82&v=vbkTzOytISY %}
 
 {% next %}
 
