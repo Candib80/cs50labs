@@ -1,4 +1,4 @@
-# Hello, Again
+# Hello Again
 
 ## Enhancing our first program
 
