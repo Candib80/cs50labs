@@ -43,9 +43,9 @@ And be sure to execute your program, testing it a few times with different input
 
 {% spoiler "Hint" %}
 
-## Hint
+## Hints
 
-### Don't recall how to prompt the user for their name?
+#### Don't recall how to prompt the user for their name?
 
 Recall that you can use `get_string` as follows, storing its *return value* in a variable called `name` of type `string`.
 
@@ -53,7 +53,7 @@ Recall that you can use `get_string` as follows, storing its *return value* in a
 string name = get_string("What is your name?\n");
 ```
 
-### Don't recall how to format a string?
+#### Don't recall how to format a string?
 
 Dont recall how to join (i.e., concatenate) the user's name with a greeting?  Recall that you can use `printf` not only to print but to format a string (hence, the `f` in `printf`), a la the below, wherein `name` is a `string`.
 
@@ -61,7 +61,7 @@ Dont recall how to join (i.e., concatenate) the user's name with a greeting?  Re
 printf("hello, %s\n", name);
 ```
 
-### Use of undelcared identifier?
+#### Use of undelcared identifier?
 
 Seeing the below, perhaps atop other errors?
 
