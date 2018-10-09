@@ -49,7 +49,7 @@ And be sure to execute your program, testing it a few times with different input
 
 Recall that you can use `get_string` as follows, storing its *return value* in a variable called `name` of type `string`.
 
-```
+```c
 string name = get_string("What is your name?\n");
 ```
 
@@ -57,7 +57,7 @@ string name = get_string("What is your name?\n");
 
 Dont recall how to join (i.e., concatenate) the user's name with a greeting?  Recall that you can use `printf` not only to print but to format a string (hence, the `f` in `printf`), a la the below, wherein `name` is a `string`.
 
-```
+```c
 printf("hello, %s\n", name);
 ```
 
@@ -71,7 +71,7 @@ error: use of undeclared identifier 'string'; did you mean 'stin'?
 
 Recall that, to use `get_string`, you need to include `cs50.h` (in which `get_string` is *declared*) atop a file, as with:
 
-```
+```c
 #include <cs50.h>
 ```
 
