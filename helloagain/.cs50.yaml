@@ -1,5 +1,4 @@
 lab50: true
 files:
   - !include hello.c
-checks: cs50/2018/ap/hello
-submit: cs50/2018/ap/hello
+submit: cs50/2018/fall/hello
