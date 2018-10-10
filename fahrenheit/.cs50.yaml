@@ -2,5 +2,6 @@ lab50: true
 files:
   - !include fahrenheit.c
   - !include truncate.c
+  - !include pseudocode.txt
 checks: cs50/2018/ap/fahrenheit
 submit: cs50/2018/ap/fahrenheit
