@@ -2,7 +2,7 @@
 
 ## tl;dr
 
-Implement a program that converts degrees in Celsius to Fahrenheit, per the below.
+Implement a program that converts degrees in Celsius to Fahrenheit, per the below, wherein the "0" represents some user's input.
 
 ```
 $ ./fahrenheit
@@ -41,3 +41,21 @@ F = ((C * 9) / 5) + 32
 Let’s do a quick test to make sure things work as expected. Worldwide, the commonly accepted value for normal human body temperature is 37°C. If we plug "37" into that formula where °C goes and do the math (37 multiplied by 9 is 333, 333 divided by 5 is 66.6, 66.6 + 32 is 98.6) we get 98.6°F which is what folks in the United States know as normal human body temperature. So that checks out. Similarly if we plug in 0°C (the freezing point of water) into that formula does it convert to 32°F, and 100°C (the boiling point of water) is apparently equivalent to 212°F. Seems like things are going well.
 
 {% next %}
+
+## Pseudocode
+
+First, write in pseudocode.txt at right some pseudocode that implements this program, even if not (yet!) sure how to writ it in code.
+
+Odds are your pseudocode will use (or imply using!) on or more functions, operators, and variables.
+
+{% spoiler "Hint" %}
+
+There's more than one way to do this, so here's just one!
+
+1. Prompt for degrees Celsius and save this in a variable
+2. Use this value to calculate degrees Fahrenheit and save in another variable
+3. Print out the result
+
+It's okay to edit your own after seeing this pseudocode here, but don't simply copy/paste ours into your own!
+
+{% endspoiler %}
