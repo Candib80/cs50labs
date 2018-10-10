@@ -1,0 +1,5 @@
+lab50: true
+files:
+  - !include fahrenheit
+checks: cs50/2018/ap/fahrenheit
+submit: cs50/2018/ap/fahrenheit
