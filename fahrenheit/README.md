@@ -2,13 +2,15 @@
 
 ## tl;dr
 
-Implement a program that converts degrees in Celsius to Fahrenheit, per the below. Where the text in italics is user input.
+Implement a program that converts degrees in Celsius to Fahrenheit, per the below.
 
 ```
-$ *./fahrenheit*
-C: *0*
+$ ./fahrenheit
+C: 0
 F: 32.0
 ```
+
+{% next %}
 
 ## Turning Up the Heat
 
