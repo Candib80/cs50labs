@@ -1,5 +1,15 @@
 # Fahrenheit
 
+## tl;dr
+
+Implement a program that converts degrees in Celsius to Fahrenheit, per the below. Where the text in italics is user input.
+
+```
+$ *./fahrenheit*
+C: *0*
+F: 32.0
+```
+
 ## Turning Up the Heat
 
 In the past, if you wanted to know what the outdoor temperature was, you had to look around for one of these, which might have been mounted outside at your house.
