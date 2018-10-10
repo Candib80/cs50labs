@@ -98,7 +98,7 @@ Can you see why this prints with 2 decimal places? Now adapt this to print degre
 
 ## Check Your Work
 
-Be sure to make your program via the following:
+Be sure to `make` your program via the following:
 
 ```
 make fahrenheit
@@ -111,6 +111,8 @@ Then run your program via:
 ```
 
 Entering a valid Celsius temperature.
+
+---
 
 To check your work via check50, run the following in the terminal window
 
