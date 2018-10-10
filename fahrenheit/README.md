@@ -88,7 +88,7 @@ Printf can be used to specify how many places after the decimal point you wish t
 printf("%.2f\n", number);
 ```
 
-To see this in action, click on the truncate.c program to the right and make and run it.
+To see this in action, click on the `truncate.c` program to the right and make and run it.
 
 Can you see why this prints with 2 decimal places? Now adapt this to print degrees Fahrenheit (don't forget to start the output with "F: ") to exactly one decimal place.
 
