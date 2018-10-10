@@ -44,7 +44,7 @@ Let’s do a quick test to make sure things work as expected. Worldwide, the com
 
 ## Pseudocode
 
-First, write in pseudocode.txt at right some pseudocode that implements this program, even if not (yet!) sure how to writ it in code.
+First, write in `pseudocode.txt` at right some pseudocode that implements this program, even if not (yet!) sure how to writ it in code.
 
 Odds are your pseudocode will use (or imply using!) on or more functions, operators, and variables.
 
@@ -59,3 +59,69 @@ There's more than one way to do this, so here's just one!
 It's okay to edit your own after seeing this pseudocode here, but don't simply copy/paste ours into your own!
 
 {% endspoiler %}
+
+{% next %}
+
+## Prompting for Input
+
+Whatever your pseudocode, let's first write only the C code that prompts (and re-prompts, as needed) the user for input. We want to get the Celsius value from the user, then convert to Fahrenheit.
+
+First, declare a new floating point variable to hold degrees Celsius.
+
+Do recall that if you include `<cs50.h>` atop your `fahrenheit.c` file, you will have access to a function called `get_float`, which will allow the user to input a floating-point value (a number with a decimal point in it, also known as a real number). The parameters (or what is inside the parentheses) of the get functions will display a prompt for users. *(remember our hello again problem)*
+
+Now make sure to assign the value of this input function to your new Celsius variable.
+
+{% next %}
+
+## Let's Convert to Fahrenheit
+
+Declare another float to hold degrees Fahrenheit, and assign the result of the temperature conversion formula (given above).
+
+Finally, print out the result with exactly one decimal place.
+
+{% spoiler "Hint" %}
+
+Printf can be used to specify how many places after the decimal point you wish to display to the user. For example to print a float with 2 decimal places you would type:
+
+```c
+printf("%.2f\n", number);
+```
+
+To see this in action, click on the truncate.c program to the right and make and run it.
+
+Can you see why this prints with 2 decimal places? Now adapt this to print degrees Fahrenheit (don't forget to start the output with "F: ") to exactly one decimal place.
+
+{% endspoiler %}
+
+{% next "Checks" %}
+
+## Check Your Work
+
+Be sure to make your program via the following:
+
+```
+make fahrenheit
+```
+
+Then run your program via:
+
+```
+./fahrenheit
+```
+
+Entering a valid Celsius temperature.
+
+To check your work via check50, run the following in the terminal window
+
+```
+check50 cs50/2018/ap/fahrenheit
+```
+
+{% next "Submit" %}
+
+Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
+
+```
+submit50 cs50/2018/ap/fahrenheit
+```
