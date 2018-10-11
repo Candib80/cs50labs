@@ -112,6 +112,8 @@ Then run your program via:
 
 Entering a valid Celsius temperature.
 
+- Make sure you check with different values of Celsius that have known Fahrenheit conversions (0 & 100 are good to start with).
+
 ---
 
 To check your work via check50, run the following in the terminal window
