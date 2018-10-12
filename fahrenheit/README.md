@@ -10,6 +10,8 @@ C: 0
 F: 32.0
 ```
 
+{% video https://www.youtube.com/watch?v=MMRa1KzzfoY&feature=youtu.be %}
+
 {% next %}
 
 ## Turning Up the Heat
@@ -44,9 +46,9 @@ Let’s do a quick test to make sure things work as expected. Worldwide, the com
 
 ## Pseudocode
 
-First, write in `pseudocode.txt` at right some pseudocode that implements this program, even if not (yet!) sure how to writ it in code.
+First, write in `pseudocode.txt` at right some pseudocode that implements this program, even if not (yet!) sure how to write it in code.
 
-Odds are your pseudocode will use (or imply using!) on or more functions, operators, and variables.
+Odds are your pseudocode will use (or imply using!) one or more functions, operators, and variables.
 
 {% spoiler "Hint" %}
 
@@ -68,7 +70,7 @@ Whatever your pseudocode, let's first write only the C code that prompts (and re
 
 First, declare a new floating point variable to hold degrees Celsius.
 
-Do recall that if you include `<cs50.h>` atop your `fahrenheit.c` file, you will have access to a function called `get_float`, which will allow the user to input a floating-point value (a number with a decimal point in it, also known as a real number). The parameters (or what is inside the parentheses) of the get functions will display a prompt for users. *(remember our hello again problem)*
+Do recall that if you include `<cs50.h>` atop your `fahrenheit.c` file, you will have access to a function called `get_float`, which will allow the user to input a floating-point value (a number with a decimal point in it, also known as a real number). The parameters (or what is inside the parentheses) of the get functions will display a prompt for users. *(remember our hello again problem??)*
 
 Now make sure to assign the value of this input function to your new Celsius variable.
 
@@ -82,7 +84,7 @@ Finally, print out the result with exactly one decimal place.
 
 {% spoiler "Hint" %}
 
-Printf can be used to specify how many places after the decimal point you wish to display to the user. For example to print a float with 2 decimal places you would type:
+`printf` can be used to specify how many places after the decimal point you wish to display to the user. For example to print a float with 2 decimal places you would type:
 
 ```c
 printf("%.2f\n", number);
@@ -111,6 +113,8 @@ Then run your program via:
 ```
 
 Entering a valid Celsius temperature.
+
+- Make sure you check with different values of Celsius that have known Fahrenheit conversions (0 & 100 are good to start with).
 
 ---
 
