@@ -6,5 +6,5 @@
 int main(void)
 {
     // Start writing your code under this comment
-
+    
 }
