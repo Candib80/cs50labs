@@ -25,7 +25,7 @@ Suffice it to say that the longer you shower, the more water you use. But just h
 
 ## Specification
 
-- To the right you will see water.c where you will create a program that prompts the user for the length of his or her shower in minutes (as a positive integer) and then prints the equivalent number of bottles of water (as an integer)
+- To the right you will see `water.c` where you will create a program that prompts the user for the length of his or her shower in minutes (as a positive integer) and then prints the equivalent number of bottles of water (as an integer)
 
 - You will comment your name at the very top, where indicated to do so
 
@@ -36,6 +36,16 @@ Suffice it to say that the longer you shower, the more water you use. But just h
 ## Walkthrough
 
 {% video https://www.youtube.com/watch?v=oAcVHgmjTHE&feature=youtu.be %}
+
+{% spoiler "Hint" %}
+
+- You can use the function get_int to prompt the user to input an integer value, as per below:
+
+```
+int minutes = get_int("put your prompt here");
+```
+
+{% endspoiler %}
 
 {% next "Checks" %}
 
@@ -53,7 +63,7 @@ Then run your program via:
 ./water
 ```
 
-Entering a valid amount of minutes of your shower.
+Entering a valid amount of minutes of your shower, including, but not limited to, the ones given at the top of the lab.
 
 ---
 
