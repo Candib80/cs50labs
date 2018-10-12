@@ -39,7 +39,7 @@ Suffice it to say that the longer you shower, the more water you use. But just h
 
 {% spoiler "Hint" %}
 
-- You can use the function get_int to prompt the user to input an integer value, as per below:
+- You can use the function `get_int` to prompt the user to input an integer value, as per below:
 
 ```
 int minutes = get_int("put your prompt here");
@@ -74,6 +74,8 @@ check50 cs50/2017/x/water
 ```
 
 {% next "Submit" %}
+
+## Submit
 
 Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 
