@@ -1,0 +1,5 @@
+lab50: true
+files:
+  - !include water.c
+checks: cs50/2017/x/water
+submit: cs50/2017/x/water
