@@ -44,7 +44,7 @@ First things first, lets get some input from the user. Remember how we did this 
 
 {% spoiler "Hint" %}
 
-Whole numbers are integers. We get integers by using the function `get_int()`, and putting our prompt inside of the parentheses, inside of quotation marks.  Make sure that you leave a space to separate your prompt from the user input.
+First you will need to declare your variables, which are whole numbers or integers. Then we need to get the integers by using the function `get_int()`, and putting our prompt inside of the parentheses, inside of quotation marks.  Make sure that you leave a space to separate your prompt from the user input.
 
 {% endspoiler %}
 
