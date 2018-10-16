@@ -54,11 +54,11 @@ Whole numbers are integers. We get integers by using the function `get_int()`, a
 
 For this next part we will be comparing `x` and `y`. If `x` is less than `y`, we are going to print as such. If `x` is greater than `y`, print this as well. Lastly the only other option is that `x` and `y` are equal.
 
-See if you can figure this out on your own before going forward.
-
 - We use the `if`, `else if`, and `else` keywords to denote the forks in the road, based on Boolean expressions. `else` simply captures all the cases that haven’t fit into a previous condition.
 
 - Note that curly braces, `{` and `}`, are used to wrap the lines of code that we want to run for each of the conditions if they are true. We also use indentation to make the lines of code more readable.
+
+See if you can figure this out on your own before going forward.
 
 {% next %}
 
