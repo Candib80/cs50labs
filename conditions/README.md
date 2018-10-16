@@ -18,7 +18,7 @@ Logical operators can also be used to combine boolean expressions. `&&` is the l
 
 ---
 
-Follow along and TYPE along with the instructions - DO NOT copy and paste!!
+Follow along and **TYPE** along with the instructions - **DO NOT copy and paste!!**
 
 {% next %}
 
