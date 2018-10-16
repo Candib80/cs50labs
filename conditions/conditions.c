@@ -1,4 +1,4 @@
-// Enter your name under this comment
+// Enter your name here
 
 // Make sure to put your header file(s) under this comment
 
