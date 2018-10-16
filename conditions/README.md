@@ -86,16 +86,14 @@ else
 Be sure to `make` your program via the following:
 
 ```
-make bool_conditions
+make conditions
 ```
 
 Then run your program via:
 
 ```
-./bool_conditions
+./conditions
 ```
-
-
 
 ---
 
