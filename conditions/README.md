@@ -36,6 +36,8 @@ int main(void)
 
 {% endspoiler %}
 
+{% next %}
+
 ## Get User Input
 
 First things first, lets get some input from the user. Remember how we did this before? We will need two (2) whole numbers from the user. Let's name them `x` and `y`.
