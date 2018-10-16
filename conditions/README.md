@@ -99,6 +99,12 @@ Be sure to `make` your program via the following:
 make conditions
 ```
 
+Program won't make?
+
+- Do you have all your semicolons (;) in place?
+- Did you declare your variables correctly?
+- Lastly, make sure to read the error messages, as they can help.
+
 Then run your program via:
 
 ```
@@ -107,7 +113,10 @@ Then run your program via:
 
 checking all conditions possible!
 
----
+Not displaying correctly?
+
+- Make sure you have the spacing correct in your prompts
+- Make sure you put in the new line tags (\n)
 
 {% next "Submit" %}
 
