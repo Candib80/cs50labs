@@ -103,8 +103,4 @@ checking all conditions possible!
 
 ## Submit
 
-Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
-
-```
-submit50 cs50/2018/ap/conditions
-```
+When you are done, raise your hand and show Mrs. Beaman.  If you finish this at home, show to her first thing in class.
