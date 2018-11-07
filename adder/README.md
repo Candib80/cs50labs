@@ -85,6 +85,8 @@ int adder(int x, int y)
 }
 ```
 
+{% endspoiler %}
+
 {% next "Checks" %}
 
 ## Check Your Work
