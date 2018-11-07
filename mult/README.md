@@ -12,20 +12,6 @@ Finally print your answer to the screen.
 
 Some of the code has been started for you, with comments telling you where to write most of your code.
 
-You may need another header file to get your numbers from the user. If you can't remember, click on the hint.
-
-{% spoiler "Hint" %}
-
-This is the header file to use our `get` functions:
-
-```c
-#include <cs50.h>
-```
-
-{% endspoiler %}
-
-{% next %}
-
 ## Get User Input
 
 First things first, lets get some input from the user. Remember how we did this before? We will need two (2) whole numbers from the user. Let's name them `x` and `y`.
