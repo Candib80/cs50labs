@@ -1,4 +1,3 @@
 lab50: true
 files:
-  - *
   - !include myFunction.c
