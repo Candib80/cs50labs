@@ -32,7 +32,7 @@ variable = get_int("prompt: ");
 
 {% endspoiler %}
 
-{% spoiler "Click me for more help" %}
+{% spoiler "Click me to see program structure" %}
 
 ```c
 #include <stdio.h>
