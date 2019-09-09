@@ -122,6 +122,4 @@ Not displaying correctly?
 
 ## Submit
 
-Submit via the command-line by typing the following:
-
-submit50 labs/conditions@candib80/checks
+Make sure to show Mrs. Beaman your work. Work should be saved even if you close the window to the lab unless you reset the lab.
