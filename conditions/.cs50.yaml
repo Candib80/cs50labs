@@ -1,3 +1,4 @@
 lab50: true
 files:
   - !include conditions.c
+submit: c/conditions@candib80/checks
