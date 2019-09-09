@@ -124,4 +124,4 @@ Not displaying correctly?
 
 Submit via the command-line by typing the following:
 
-submit50 functions/conditions@candib80/checks
+submit50 labs/conditions@candib80/checks
