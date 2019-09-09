@@ -122,4 +122,6 @@ Not displaying correctly?
 
 ## Submit
 
-When you are done, raise your hand and show Mrs. Beaman.  If you finish this at home, show to her first thing in class.
+Submit via the command-line by typing the following:
+
+submit50 functions/conditions@candib80/checks
