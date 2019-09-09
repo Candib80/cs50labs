@@ -1,4 +1,6 @@
 lab50: true
-files:
-  - !include conditions.c
-submit: c/conditions@candib80/checks
+  files:
+    - !exclude "*"
+    - !include conditions.c
+    
+  submit: labs/conditions@candib80/checks
