@@ -2,5 +2,7 @@ lab50: true
 files:
   - !exclude "*"
   - !include water.c
-checks: cs50/2017/x/water
-submit: cs50/2017/x/water
+submit50:
+  files:
+  - !exclude "*"
+  - !include "water.c"
