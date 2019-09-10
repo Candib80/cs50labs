@@ -1,3 +1,7 @@
 lab50: true
 files:
   - !include multiply.c
+submit50:
+  files:
+  - !exclude "*"
+  - !include "multiply.c"

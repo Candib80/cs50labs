@@ -120,6 +120,7 @@ Not displaying correctly?
 
 ## Submit
 
-Submit via the command-line by typing the following:
-
-`submit50 functions/adder@candib80/checks`
+To submit `adder`, execute the below in the terminal window, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
+```
+submit50 candib80/cs50labs/c/adder
+```

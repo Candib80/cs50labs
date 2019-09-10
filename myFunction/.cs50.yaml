@@ -1,3 +1,7 @@
 lab50: true
 files:
   - !include myFunction.c
+submit50:
+  files:
+  - !exclude "*"
+  - !include "myFunction.c"

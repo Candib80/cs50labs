@@ -1,3 +1,7 @@
 lab50: true
 files:
   - !include adder.c
+submit50:
+  files:
+  - !exclude "*"
+  - !include "adder.c"
