@@ -75,11 +75,11 @@ See if you can figure this out on your own before going forward.
 Ok, so here is the code for our condition:
 
 ```c
-if(x < y)
+if (x < y)
 {
     printf("x is less than y\n");
 }
-else if(x > y)
+else if (x > y)
 {
     printf("x is greater than y\n");
 }
