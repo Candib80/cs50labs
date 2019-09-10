@@ -65,13 +65,7 @@ Then run your program via:
 
 Entering a valid amount of minutes of your shower, including, but not limited to, the ones given at the top of the lab.
 
----
 
-To check your work via check50, run the following in the terminal window:
-
-```
-check50 cs50/2017/x/water
-```
 
 {% next "Submit" %}
 
