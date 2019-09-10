@@ -93,7 +93,7 @@ else
 
 ## Check Your Work
 
-Be sure to `make` your program via the following:
+Be sure to `make` your program via the following in the termainal window:
 
 ```
 make conditions
@@ -105,7 +105,7 @@ Program won't make?
 - Did you declare your variables correctly?
 - Lastly, make sure to read the error messages, as they can help.
 
-Then run your program via:
+Then run your program via the following in the teminal window:
 
 ```
 ./conditions
@@ -122,4 +122,7 @@ Not displaying correctly?
 
 ## Submit
 
-Make sure to show Mrs. Beaman your work. Work should be saved even if you close the window to the lab unless you reset the lab.
+To submit `conditions`, execute the below in the terminal window, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
+```
+submit50 candib80/cs50labs/c/conditions
+```

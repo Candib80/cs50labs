@@ -51,7 +51,7 @@ int minutes = get_int("put your prompt here");
 
 ## Check Your Work
 
-Be sure to `make` your program via the following:
+Be sure to `make` your program via the following in the terminal window:
 
 ```
 make water
@@ -67,7 +67,7 @@ Entering a valid amount of minutes of your shower, including, but not limited to
 
 ---
 
-To check your work via check50, run the following in the terminal window
+To check your work via check50, run the following in the terminal window:
 
 ```
 check50 cs50/2017/x/water
