@@ -100,5 +100,5 @@ Not displaying correctly?
 
 To submit `multiply`, execute the below in the terminal window, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 ```
-submit50 candib80/cs50labs/c/multiply
+submit50 candib80/cs50labs/c/mult
 ```
