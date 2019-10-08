@@ -149,72 +149,45 @@ Style
 style50 fahrenheit.c
 ```
 
+## Makin' Bank
 
-## Let's Add
+In Pennies you were asked to write a program that demonstrated the power of exponentiation by showing how much money you would have if a person gave you x pennies on a particular day, and then doubled the amount they gave you every day for a period of y days.
 
-First, you may want to create your adder function and put in your function declaration.
-
-Then you will want to finish up `main`, calling your new function and then printing the answer to the screen.
-
-{% spoiler "Click me for full program" %}
-
-```c
-#include <stdio.h>
-#include <cs50.h>
-
-int adder(int x, int y);
-
-int main(void)
-{
-    // get integers from user
-    int x = get_int("give me a whole number: ");
-    int y = get_int("give me another whole number: ");
-    
-    //call adder function and pass in x and y
-    int answer = adder(x, y);
-    
-    // print answer to screen
-    printf("adding your nubmers together gives us: %i\n", answer);
-}
-
-int adder(int x, int y)
-{
-    return x + y;
-}
+```
+~/chapter2/friends $ ./pennies
+Days in month: 31
+Pennies on first day: 1
+$21474836.47
 ```
 
-{% endspoiler %}
+As you might expect, we’d now like the program to work as follows.
+
+```
+~/chapter2/friends $ ./pennies 31 1
+$21474836.47
+```
+
+Notice a few differences with this program from the previous two. How many command line arguments does this one accept? Be sure to modify your check against argc accordingly. And also know that in ```stdlib.h``` alongside of the function ```atof``` exists another, ```atoi```, that converts a ```string``` to an ```int``` in much the same way that ```atof``` converts a ```string``` to a ```float```.
+
+Incidentally, you can assume that the user will only type integers at the command line; there’s no need for you to anticipate a rogue user this time around!
 
 {% next "Checks" %}
 
-## Check Your Work
+### Testing pennies
 
-Be sure to `make` your program via the following:
+Correctness
 
-```
-make adder
-```
-
-Program won't make?
-
-- Do you have all your semicolons (;) in place?
-- Did you declare your variables correctly?
-- Lastly, make sure to read the error messages, as they can help.
-
-Then run your program via:
+If you’d like to check the correctness of your program with ```check50```, you may execute the below.
 
 ```
-./adder
+check50 cs50/problems/2019/ap/friends/pennies
 ```
 
-checking all conditions possible!
+Style
 
-Not displaying correctly?
-
-- Make sure you have the spacing correct in your prompts
-- Make sure you put in the new line tags (\n)
-
-{% next "Submit" %}
+```
+style50 pennies.c
+```
 
 ## Submit
 
