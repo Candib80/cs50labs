@@ -192,11 +192,30 @@ Style
 style50 pennies.c
 ```
 
-{% next "Submit" %}
+{% next "Submitting all 3 programs" %}
 
 ## Submit
 
-To submit `adder`, execute the below in the terminal window, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
+To submit ```hello```, execute
+
 ```
-submit50 candib80/cs50labs/c/adder
+submit50 cs50/problems/2019/ap/friends/hello
 ```
+
+inputting your GitHub username and GitHub password as prompted.
+
+To submit ```fahrenheit```, execute
+
+```
+submit50 cs50/problems/2019/ap/friends/fahrenheit
+```
+
+inputting your GitHub username and GitHub password as prompted.
+
+To submit ```pennies```, execute
+
+```
+submit50 cs50/problems/2019/ap/friends/pennies
+```
+
+inputting your GitHub username and GitHub password as prompted.
