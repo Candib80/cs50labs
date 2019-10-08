@@ -86,19 +86,69 @@ Note what this accomplishes? We check to make sure that the user has supplied th
 
 {% next %}
 
-## Get User Input
+### Testing hello
 
-First things first, lets get some input from the user. Remember how we did this before? We will need two (2) whole numbers from the user. Let's name them `x` and `y`.
+Correctness
 
-For this program, just assume the user will give you a whole number, no need to check!
+If you’d like to check the correctness of your program with ```check50```, you may execute the below.
 
-{% spoiler "Hint" %}
+```
+check50 cs50/problems/2019/ap/friends/hello
+```
 
-First you will need to declare your variables, which are whole numbers or integers. Then we need to get the integers by using the function `get_int()`, and putting our prompt inside of the parentheses, inside of quotation marks.  Make sure that you leave a space to separate your prompt from the user input.
+Style
 
-{% endspoiler %}
+```
+style50 hello.c
+```
+
+## Chill Out
+
+In Fahrenheit you were asked to write a program that asked the user for a temperature in Celsius (which they provided via ```get_float```) and which then printed out the equivalent temperature on the Fahrenheit scale.
+
+```
+~/chapter2/friends $ ./fahrenheit
+C: 0
+F: 32.0
+```
+
+In ```fahrenheit.c``` you will find a fully-functioning version of the code you were tasked with writing in that problem. Convert that program so that it accepts the Celsius temperature from the command line instead.
+
+```
+~/chapter2/friends $ ./fahrenheit 0
+F: 32.0
+```
+
+There’s a catch, though.
+
+Just because the user types a real number at the prompt, that doesn’t mean their input will be automatically stored in a ```float```. Actually, it will be stored as a ```string``` that just so happens to look like an ```float```; after all, remember the data type of ```argv```? It’s an array where each element is a ```string```! And so you’ll need to convert that ```string``` to an actual ```float```. As luck would have it, a function, ```atof```, exists for exactly that purpose! Here’s how you might use it:
+
+```
+float celsius = atof(argv[1]);
+```
+
+Notice, this time, we’ve declared celsius as an actual ```float``` so that you can do some arithmetic with it. Incidentally, you can assume that the user will only type real numbers at the command line.
+
+Because ```atof``` is declared in ```stdlib.h```, you’ll want to ```#include``` that header file atop your own code. And, as with ```hello.c``` earlier, you’ll want to make sure the user provides exactly the correct number of command-line arguments to your program before doing any calculations, returning 1 should they fail to.
 
 {% next %}
+
+### Testing fahrenheit
+
+Correctness
+
+If you’d like to check the correctness of your program with ```check50```, you may execute the below.
+
+```
+check50 cs50/problems/2019/ap/friends/fahrenheit
+```
+
+Style
+
+```
+style50 fahrenheit.c
+```
+
 
 ## Let's Add
 
