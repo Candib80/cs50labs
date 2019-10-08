@@ -39,13 +39,48 @@ Your name: Zamyla
 hello, Zamyla
 ```
 
+In fact, to the right contains a file, ```hello.c```, with exactly this behavior. What we want, though, is a program that has this behavior instead:
+
+```
+~/chapter2/friends $ ./hello Zamyla
+hello, Zamyla
+```
+
+See the slight difference? Instead of prompting the user for information after the program has started running, we collect the desired information from the user before they run the program, and then use that information once the program has started. How do we do so?
+
+{% next %}
+
+Recall that our programs are capable of knowing information about what the user typed at the command line by modifying the way we write the start of our ```main``` function. Instead of
+
+```
+int main(void)
+```
+
+if we start ```main``` off by typing
+
+```
+int main(int argc, string argv[])
+```
+
+we then have access to two special variables that we can use inside of ```main```. First is ```argc```, which is an integer variable that tells us how many things the user typed in at the command line, and second is ```argv```, which is an array of strings representing exactly what the user typed.
+
+Knowing this, and from the information in Doug’s short, can you now modify ```hello.c``` so that it prints out the name provided at the command line, instead of collecting a ```string``` from the user after the program has started?
+
+One more wrinkle. How do you make sure the user in fact did provide you with one (and only one) additional argument, so that you can print it out? Well remember that’s what our new friend ```argc``` can manage for us. If the user doesn’t supply a command-line argument, best to terminate the program and have them try again.
+
 {% spoiler "Hint" %}
 
-This is the header file to use our `get` functions:
+One way to accomplish this might be to have this near the top of our code:
 
 ```c
-#include <cs50.h>
+if (argc != 2)
+{
+    printf("Usage: ./hello <name>\n");
+    return 1;
+}
 ```
+
+Note what this accomplishes? We check to make sure that the user has supplied the proper number of command-line arguments (2). If not, we tell the user how they should run the program, and then we ```return 1```;, which is our way of indicating that our program finished running, but not successfully. We use nonzero return values from ```main```, also known as exit codes, to report back to the system that something went awry.
 
 {% endspoiler %}
 
