@@ -84,7 +84,7 @@ Note what this accomplishes? We check to make sure that the user has supplied th
 
 {% endspoiler %}
 
-{% next %}
+{% next "Test hello" %}
 
 ### Testing hello
 
@@ -101,6 +101,7 @@ Style
 ```
 style50 hello.c
 ```
+{% next %}
 
 ## Chill Out
 
@@ -131,7 +132,7 @@ Notice, this time, we’ve declared celsius as an actual ```float``` so that you
 
 Because ```atof``` is declared in ```stdlib.h```, you’ll want to ```#include``` that header file atop your own code. And, as with ```hello.c``` earlier, you’ll want to make sure the user provides exactly the correct number of command-line arguments to your program before doing any calculations, returning 1 should they fail to.
 
-{% next %}
+{% next "Test fahrenheit" %}
 
 ### Testing fahrenheit
 
@@ -148,6 +149,8 @@ Style
 ```
 style50 fahrenheit.c
 ```
+
+{% next %}
 
 ## Makin' Bank
 
@@ -171,7 +174,7 @@ Notice a few differences with this program from the previous two. How many comma
 
 Incidentally, you can assume that the user will only type integers at the command line; there’s no need for you to anticipate a rogue user this time around!
 
-{% next "Checks" %}
+{% next "Test pennies" %}
 
 ### Testing pennies
 
@@ -188,6 +191,8 @@ Style
 ```
 style50 pennies.c
 ```
+
+{% next "Submit" %}
 
 ## Submit
 
