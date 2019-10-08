@@ -1,0 +1,12 @@
+lab50: true
+files:
+  - !exclude "*"
+  - !include "hello.c"
+  - !include "fahrenheit.c"
+  - !include "pennies.c"
+submit50:
+  files:
+  - !exclude "*"
+  - !include "hello.c"
+  - !include "fahrenheit.c"
+  - !include "pennies.c"
