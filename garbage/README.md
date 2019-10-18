@@ -2,7 +2,7 @@
 
 ## Problem
 
-In the below to the right, an array of 20 ints is declared, some values are set, and then the sum of the array is printed. However, the value printed seems to have little to do with the actual value of the sum. Why might this be? Fix the bug, to print the actual sum!
+In the program to the right, an array of 20 `int`s is declared, some values are set, and then the sum of the array is printed. However, the value printed seems to have little to do with the actual value of the sum. Why might this be? Fix the bug, to print the actual sum!
 
 {% spoiler "Hint" %}
 
