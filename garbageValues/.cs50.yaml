@@ -1,0 +1,8 @@
+lab50: true
+files:
+  - !exclude "*"
+  - !include garbage.c
+submit50:
+  files:
+  - !exclude "*"
+  - !include "garbage.c"
