@@ -1,0 +1,8 @@
+lab50: true
+files:
+  - !exclude "*"
+  - !include decode.c
+submit50:
+  files:
+  - !exclude "*"
+  - !include "decode.c"

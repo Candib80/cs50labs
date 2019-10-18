@@ -1,12 +1,8 @@
-# Countdown
+# Decode
 
 ## Problem
 
-The code in the code window attempts to run a launch-style countdown, from 9 to 0, but unfortunately encounters a runtime error. Fix the bug.
-
-{% spoiler "Hint" %}
-
-Make the program first to see what happens ;)
+The array in the code to the right contains a secret message -- typecast its contents correctly, to print it out!
 
 {% next "Checks" %}
 

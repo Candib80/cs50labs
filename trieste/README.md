@@ -8,7 +8,4 @@ Read through the code below. Without changing the code, run the program with the
 
 ## Submit
 
-To submit `trieste`, execute the below in the terminal window, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
-```
-submit50 candib80/cs50labs/c/trieste
-```
+To submit, take a screenshot of your program's input and output with your username visible and paste in the Word doc in Teams.

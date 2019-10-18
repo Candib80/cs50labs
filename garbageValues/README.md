@@ -19,7 +19,4 @@ Ensure you read the comments and DON'T change the one line you are not supposed 
 
 ## Submit
 
-To submit `garbage`, execute the below in the terminal window, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
-```
-submit50 candib80/cs50labs/c/garbageValues
-```
+Take a screenshot of the code with your username visible and paste in the Word doc in Teams.
