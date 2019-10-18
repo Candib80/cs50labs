@@ -8,6 +8,8 @@ In the program to the right, an array of 20 `int`s is declared, some values are 
 
 Ensure you read the comments and DON'T change the one line you are not supposed to. Instead, think about what some of the values of the array might be if we didn't tell the computer...
 
+{% endspoiler %}
+
 {% next "Checks" %}
 
 ## Check Your Work

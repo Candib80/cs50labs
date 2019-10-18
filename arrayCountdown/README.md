@@ -8,6 +8,8 @@ The code in the code window attempts to run a launch-style countdown, from 9 to 
 
 Make the program first to see what happens ;)
 
+{% endspoiler %}
+
 {% next "Checks" %}
 
 ## Check Your Work
