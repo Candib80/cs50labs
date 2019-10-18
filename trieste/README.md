@@ -8,7 +8,7 @@ Read through the code to the right. Without changing the code, run the program w
 
 Write down how many words you may need, then figure out which letter of each word to make up "Trieste" and come up with words that way.
 
-{% endpoiler %}
+{% endspoiler %}
 
 {% next "Submit" %}
 
