@@ -6,9 +6,7 @@ In the below to the right, an array of 20 ints is declared, some values are set,
 
 {% spoiler "Hint" %}
 
-Ensure you read the comments and DON'T change the one line you are not supposed to.
-
-Instead, think about what some of the values of the array might be if we didn't tell the computer...
+Ensure you read the comments and DON'T change the one line you are not supposed to. Instead, think about what some of the values of the array might be if we didn't tell the computer...
 
 {% next "Checks" %}
 

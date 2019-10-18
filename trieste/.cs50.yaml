@@ -1,0 +1,8 @@
+lab50: true
+files:
+  - !exclude "*"
+  - !include trieste.c
+submit50:
+  files:
+  - !exclude "*"
+  - !include "trieste.c"
