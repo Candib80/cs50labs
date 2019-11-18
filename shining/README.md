@@ -1,0 +1,13 @@
+# The Shining
+
+## Problem
+Jack is going mad while writing his manuscript. Make sure he types `All work and no play makes Jack a dull boy.` exactly 10 times, and no more! **You are only allowed to edit a single line in the code, the one marked with a `TODO` comment**
+
+{% next "Submit" %}
+
+## Submit
+
+To submit `shining`, execute the below in the terminal window, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
+```
+submit50 candib80/cs50labs/c/shining
+```
