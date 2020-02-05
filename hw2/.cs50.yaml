@@ -1,0 +1,4 @@
+submit50:
+  files:
+  - !exclude "*"
+  - !include "hw2.py"
