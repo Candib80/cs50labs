@@ -10,8 +10,6 @@ C: 0
 F: 32.0
 ```
 
-{% video https://www.youtube.com/watch?v=MMRa1KzzfoY&feature=youtu.be %}
-
 {% next %}
 
 ## Turning Up the Heat
