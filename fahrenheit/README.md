@@ -114,18 +114,9 @@ Entering a valid Celsius temperature.
 
 - Make sure you check with different values of Celsius that have known Fahrenheit conversions (0 & 100 are good to start with).
 
----
-
-To check your work via check50, run the following in the terminal window
-
-```
-check50 cs50/2018/ap/fahrenheit
-```
-
 {% next "Submit" %}
 
-Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
-
+To submit `fahrenheit`, execute the below in the terminal window, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
 ```
-submit50 cs50/2018/ap/fahrenheit
+submit50 candib80/cs50labs/c/fahrenheit
 ```

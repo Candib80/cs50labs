@@ -4,5 +4,8 @@ files:
   - !include fahrenheit.c
   - !include truncate.c
   - !include pseudocode.txt
-checks: cs50/2018/ap/fahrenheit
-submit: cs50/2018/ap/fahrenheit
+submit50:
+  files:
+  - !exclude "*"
+  - !include "fahrenheit.c"
+  - !include "pseudocode.txt"
