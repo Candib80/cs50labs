@@ -50,7 +50,7 @@ int main(void)
 {
     // get integers from user
     
-    //call adder function and pass in x and y - this can be done in the next step instead of here
+    //call function and pass in x and y - this can be done in the next step instead of here
     
     // print answer to screen
     
@@ -79,7 +79,7 @@ Program won't make?
 
 - Do you have all your semicolons (;) in place?
 - Did you declare your variables correctly?
-- Lastly, make sure to read the error messages, as they can help.
+- Lastly, make sure to read the error messages, starting with the one at the top, as they can help.
 
 Then run your program via:
 
