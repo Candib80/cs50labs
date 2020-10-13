@@ -21,4 +21,4 @@ Make the program first to see what happens ;)
 
 ## Submit
 
-Take a screenshot of the code with your username visible and paste in the Word doc in Teams.
+submit50 candib80/cs50labs/c/arrayCountdown
