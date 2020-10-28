@@ -10,7 +10,6 @@
 {% spoiler "Hint" %}
 
 * You will probably need to iterate over all the elements in the array to assign the user input to the properties
-* You will also need to iterate over the elements after you have your data & check to see if you have the correct one to print back to the terminal
 * *How do you iterate over an array??*
 
 {% endspoiler %}
