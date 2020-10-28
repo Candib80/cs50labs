@@ -9,5 +9,5 @@ int main() {
     /* testing code */
     john.name = "John";
     john.age = 27;
-    printf("%s is %i years old.", );   // complete this line to print out the name and age of John
+    printf("%s is %i years old.\n", );   // complete this line to print out the name and age of John
 }

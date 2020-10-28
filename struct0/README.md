@@ -8,7 +8,7 @@
 {% spoiler "Hint" %}
 
 * Remember to use `typedef struct` to create the structure
-* We use dot (.) notation to get at the individual properties of the structure
+* We use dot (`.`) notation to get at the individual properties of the structure
 
 {% endspoiler %}
 
