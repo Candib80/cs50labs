@@ -1,8 +1,8 @@
 lab50: true
 files:
   - !exclude "*"
-  - !include struct1.c
+  - !include struct0.c
 submit50:
   files:
   - !exclude "*"
-  - !include "struct1.c"
+  - !include "struct0.c"
