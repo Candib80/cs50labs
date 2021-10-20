@@ -9,7 +9,7 @@ Make sure to `make` the program and run it via `./shining` to see what is happen
 
 ## Submit
 
-To submit `shining`, execute the below in the terminal window, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
+To submit `shining`, execute the below in the terminal window.
 ```
 submit50 candib80/cs50labs/c/shining
 ```
