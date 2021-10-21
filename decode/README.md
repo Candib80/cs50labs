@@ -15,4 +15,4 @@ The array in the code to the right contains a secret message -- typecast its con
 
 ## Submit
 
-submit50 candib80/cs50labs/c/decode
+Send Mrs. Beaman the decoded word in a chat in Teams.
