@@ -32,7 +32,7 @@ Go back to `exit.c` from class or the Old Friends lab to see what we did to chec
 
 `argc` will be what we check to make sure the right number of arguments have been passed.
 
-`atof()` or `atoi()` may be helpful here to convert data types.
+`atof()` or `atoi()` may be helpful here to convert data types. Remember to include the library that includes this function.
 
 {% endspoiler %}
 
