@@ -17,7 +17,12 @@ Some of the code has been started for you, with comments telling you where to wr
 
 ## User Input
 
-Ensure your user has entered the correct number of command-line arguments. How many should we have for this program?
+Ensure your user has entered the correct number of command-line arguments. How many should we have for this program?  
+If the wrong number of arguments is entered, let the user know how they should use the program, via below, and exit the program.
+
+```
+Usage: ./multiply x y
+```
 
 You will also need to ensure that you convert the input from the command-line from a string to the proper data type.
 
