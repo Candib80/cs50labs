@@ -1,4 +1,4 @@
-# Functions - multiply
+# Functions, Command-line Arguments & Exit Codes - multiply
 
 ## tl;dr
 
