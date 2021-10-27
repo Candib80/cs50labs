@@ -1,10 +1,11 @@
-#include <stdio.h>
 #include <cs50.h>
+#include <stdio.h>
 
 int main(void)
 {
-    // get numbers from user and print product to screen
-    
+    // check for correct number of arguments
+
+    // call function and print answer
 }
 
 // your multiply function goes below this

@@ -2,9 +2,12 @@
 
 ## tl;dr
 
-Get two whole numbers from the user, and then create a function to multiply the two numbers together.
+Running the program with command-line arguments returns the product of the two whole numbers and prints the answer to the screen as per below. You should write a function to do the math portion.
 
-Finally print your answer to the screen.
+```
+./adder 2 5
+2 + 5 = 7
+```
 
 {% next %}
 
@@ -12,21 +15,19 @@ Finally print your answer to the screen.
 
 Some of the code has been started for you, with comments telling you where to write most of your code.
 
-## Get User Input
+## User Input
 
-First things first, lets get some input from the user. Remember how we did this before? We will need two (2) whole numbers from the user. Let's name them `x` and `y`.
+Ensure your user has entered the correct number of command-line arguments. How many should we have for this program?
 
-For this program, just assume the user will give you a whole number, no need to check!
+You will also need to ensure that you convert the input from the command-line from a string to the proper data type.
 
 {% spoiler "Hint" %}
 
-First you will need to declare your variables, which are whole numbers or integers. Then we need to get the integers by using the function `get_int()`, and putting our prompt inside of the parentheses, inside of quotation marks.  Make sure that you leave a space to separate your prompt from the user input.
+Go back to `exit.c` from class or the Old Friends lab to see what we did to check for user input at the command line.
 
-Your code will look similar to this:
+`argc` will be what we check to make sure the right number of arguments have been passed.
 
-```c
-variable = get_int("prompt: ");
-```
+`atof()` or `atoi()` may be helpful here to convert data types.
 
 {% endspoiler %}
 
@@ -34,23 +35,23 @@ variable = get_int("prompt: ");
 
 ## Let's Multiply
 
-First, you may want to create your mulitply function and put in your function declaration (this goes between the `#includes` and the `main`.
+First, you may want to create your multiply function and put in your function declaration (this goes between the `#includes` and `main`.
 
 Then you will want to finish up `main`, calling your new function and then printing the answer to the screen.
 
 {% spoiler "Click me for more help" %}
 
 ```c
-#include <stdio.h>
 #include <cs50.h>
+#include <stdio.h>
 
-int function(int x, int y); // functions declaration
+int function(int x, int y); // function declaration
 
-int main(void)
-{
-    // get integers from user
+int main(int argc, string argv[])
+{ 
+    // check for correct number of arguments
     
-    //call function and pass in x and y - this can be done in the next step instead of here
+    // call function and pass in x and y - this can be done in the next step instead of here
     
     // print answer to screen
     
@@ -58,8 +59,8 @@ int main(void)
 
 int function(int x, int y)
 {
-    //body of your mulitply function goes here
-    //this will return the value of your variables after they are multiplied together
+    // body of your multiply function goes here
+    // this will return the value of your variables after they are multiplied together
 }
 ```
 
@@ -79,6 +80,7 @@ Program won't make?
 
 - Do you have all your semicolons (;) in place?
 - Did you declare your variables correctly?
+- Did you place your function declaration in the correct place?
 - Lastly, make sure to read the error messages, starting with the one at the top, as they can help.
 
 Then run your program via:
@@ -93,12 +95,3 @@ Not displaying correctly?
 
 - Make sure you have the spacing correct in your prompts
 - Make sure you put in the new line tags (\n)
-
-{% next "Submit" %}
-
-## Submit
-
-To submit `multiply`, execute the below in the terminal window, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
-```
-submit50 candib80/cs50labs/c/mult
-```
