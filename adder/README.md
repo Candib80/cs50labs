@@ -115,12 +115,3 @@ Not displaying correctly?
 
 - Make sure you have the spacing correct in your prompts
 - Make sure you put in the new line tags (\n)
-
-{% next "Submit" %}
-
-## Submit
-
-To submit `adder`, execute the below in the terminal window, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
-```
-submit50 candib80/cs50labs/c/adder
-```
