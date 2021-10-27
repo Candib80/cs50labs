@@ -5,8 +5,8 @@
 Running the program with command-line arguments returns the product of the two whole numbers and prints the answer to the screen as per below. You should write a function to do the math portion.
 
 ```
-./adder 2 5
-2 + 5 = 7
+./multiply 2 5
+2 * 5 = 10
 ```
 
 {% next %}
@@ -86,7 +86,7 @@ Program won't make?
 Then run your program via:
 
 ```
-./multiply
+./multiply <x> <y>
 ```
 
 checking all conditions possible!
