@@ -3,7 +3,7 @@
 ## Problem
 
 * Define a new data structure, named `person`, which contains a string called `name`, and an integer called `age`.
-* Complete the `printf` statement to print out John's name and age.
+* Complete the `printf` statement to print out `john`'s name and age.
 
 {% spoiler "Hint" %}
 
