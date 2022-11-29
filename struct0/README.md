@@ -23,7 +23,7 @@
 
 ## Submit
 
-When you have finished, copy and paste this code from the lab workspace into your Codepace in your `unit3` folder, then execute the below command in the terminal:
+When you have finished, copy and paste the code from the lab workspace to the right into your Codespace into your `unit3` folder, then execute the below command in the terminal:
 
 ```
 submit50 candib80/cs50labs/c/struct0
