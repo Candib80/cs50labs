@@ -25,7 +25,7 @@
 
 ## Submit
 
-When you have finished, copy and paste the code from the lab workspace to the right into your Codespace into your `unit3` folder, then execute the below command in the terminal:
+When you have finished, copy and paste the code from the lab workspace to the right into your Codespace into a new file called `struct1.c` in your `unit3` folder, then execute the below command in the terminal:
 
 ```
 submit50 candib80/cs50labs/c/struct1
